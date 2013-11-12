@@ -1,0 +1,17 @@
+GitSocket
+=========
+After going through some pains in attempting to get Post-Receive Hooks working
+for my server, I decided to instead use Git's WebHook request
+(POST to given URL when pushing to BRANCH) to trigger a git-pull.
+
+This code is very self-explanatory.
+
+Please DO NOT execute the code without first
+checking it out and modifying it for your own needs!
+
+Using
+-----
+1) Setup Git WebHook to your URL and PORT of choice.
+2) Initialize GitSocket to listen on the port you provided for the WebHook
+as well as the PATH of the repository you intend to modify.
+3) Run GitSocket and let the pushes flow in.
