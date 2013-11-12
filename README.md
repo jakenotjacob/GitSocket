@@ -20,10 +20,10 @@ Using
 -----
 Ensure you have correct port-forwarding setup for the port you specify.
 
-1) Setup Git WebHook: give it your URL and PORT of choice. (0.0.0.0:1234)
-2) Insert your personalized command to run. (See comments inside listen() )
-3) Initialize GitSocket to listen on the port you provided for the WebHook.
-4) Run GitSocket and let the pushes flow in.
+- Setup Git WebHook: give it your URL and PORT of choice. (0.0.0.0:1234)
+- Insert your personalized command to run. (See comments inside listen() )
+- Initialize GitSocket to listen on the port you provided for the WebHook.
+- Run GitSocket and let the pushes flow in.
 
 Notes
 -----
