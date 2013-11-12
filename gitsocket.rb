@@ -3,7 +3,7 @@ require 'open-uri'
 require 'json'
 require 'ipaddr'
 
-class OooGit
+class GitSocket
 
   #Grab official servers from Git
   GIT_SERVERS = JSON.parse(open("https://api.github.com/meta").read())
