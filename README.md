@@ -18,7 +18,7 @@ checking it out and modifying it for your own needs!
 
 Using
 -----
-Ensure you have correct port-forwarding setup for the port you specify.
+Ensure you have correct port fowarding/setup and AV rules) for the port you specify.
 
 - Setup Git WebHook: give it your URL and PORT of choice. (0.0.0.0:1234)
 - Insert your personalized command to run. (See comments inside listen() )
